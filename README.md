@@ -11,4 +11,5 @@ To Run the app just use `flutter build apk --split-per-abi`
  
 * To get all the API endpoints go to [ML Labs API Endpoints.](http://35.232.215.158/api/endpoints)
 
-## Application Screenshots
+## Application Screencast
+<img src="https://github.com/KamaniBhavin/ML-Labs/blob/master/Screencasts/ezgif.com-video-to-gif.gif" width="200" height="400" />
