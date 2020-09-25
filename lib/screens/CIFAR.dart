@@ -1,16 +1,17 @@
 import 'package:flutter/material.dart';
+import 'package:handwriting_detection/commons/sidebar.dart';
 
-class Cifar extends StatefulWidget {
+class CIFAR extends StatefulWidget {
   @override
-  _CifarState createState() => _CifarState();
+  _CIFARState createState() => _CIFARState();
 }
 
-class _CifarState extends State<Cifar> {
+class _CIFARState extends State<CIFAR> {
   @override
   Widget build(BuildContext context) {
-    return Container(
-      child: Center(
-        child: Text('CIFAR'),
+    return Scaffold(
+      body: Stack(
+        children: [Sidebar(selectedIndex: 2)],
       ),
     );
   }

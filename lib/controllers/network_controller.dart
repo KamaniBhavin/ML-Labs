@@ -5,8 +5,8 @@ import 'package:http/http.dart';
 class NetworkController {
   String baseURL = 'http://35.232.215.158/api';
 
-  Future getData(String bs64) async {
-    String url = baseURL + '/MNIST/draw';
+  Future getPredictionOnMNISTFFNNDraw(String bs64) async {
+    String url = baseURL + '/MNIST/FFNN/DRW';
 
     Map<String, String> headers = {
       "Content-Type": "application/json",
