@@ -1,16 +1,14 @@
-# handwriting_detection
+# ML Labs
 
-A new Flutter application for handwriting detection using pytorch.
+A new Flutter application for Machine Learning & Deep Learning using pytorch.
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+To Run the app just use `flutter build apk --split-per-abi`
 
-A few resources to get you started if this is your first Flutter project:
+## API Endpoints 
+* ALL the API's are served over cloud instance feel free to request.
+ 
+* To get all the API endpoints go to [ML Labs API Endpoints.](http://35.232.215.158/api/endpoints)
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Application Screenshots
